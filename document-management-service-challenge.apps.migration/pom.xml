@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>document-management-service-challenge.core</artifactId>
+    <artifactId>document-management-service-challenge.apps.migration</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -18,13 +18,17 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
         <dependency>
             <groupId>com.clara.ops.challenge</groupId>
-            <artifactId>document-management-service-challenge.business</artifactId>
+            <artifactId>document-management-service-challenge.vendors.flyway</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.clara.ops.challenge</groupId>
+            <artifactId>document-management-service-challenge.vendors.postgres</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

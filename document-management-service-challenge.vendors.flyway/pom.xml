@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>document-management-service-challenge.core</artifactId>
+    <artifactId>document-management-service-challenge.vendors.flyway</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -18,14 +18,8 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.clara.ops.challenge</groupId>
-            <artifactId>document-management-service-challenge.business</artifactId>
-            <version>${project.version}</version>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
         </dependency>
     </dependencies>
 

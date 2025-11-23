@@ -25,7 +25,7 @@
         </dependency>
         <dependency>
             <groupId>com.clara.ops.challenge</groupId>
-            <artifactId>document-management-service-challenge.business</artifactId>
+            <artifactId>document-management-service-challenge.core</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

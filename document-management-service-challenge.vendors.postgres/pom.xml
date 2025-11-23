@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>document-management-service-challenge.core</artifactId>
+    <artifactId>document-management-service-challenge.vendors.postgres</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -20,12 +20,6 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.clara.ops.challenge</groupId>
-            <artifactId>document-management-service-challenge.business</artifactId>
-            <version>${project.version}</version>
         </dependency>
     </dependencies>
 

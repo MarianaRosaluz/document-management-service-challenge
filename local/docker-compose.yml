@@ -1,0 +1,22 @@
+services:
+  postgresql:
+    container_name: postgresql_container
+    image: postgres:15
+    ports:
+      - "5432:5432"
+    networks:
+      - batch_network
+    volumes:
+      - challenge_postgresql_data:/var/lib/postgresql/data
+      - ./init-scripts:/docker-entrypoint-initdb.d
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=document-management
+
+volumes:
+  challenge_postgresql_data:
+
+networks:
+  batch_network:
+    driver: bridge

@@ -9,9 +9,12 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/document-management-service-challenge.apps.api/document-management-service-challenge.apps.migration/pom.xml" />
         <option value="$PROJECT_DIR$/document-management-service-challenge.apps.business/pom.xml" />
         <option value="$PROJECT_DIR$/document-management-service-challenge.apps.core/pom.xml" />
         <option value="$PROJECT_DIR$/document-management-service-challenge.apps.worker/pom.xml" />
+        <option value="$PROJECT_DIR$/document-management-service-challenge.vendors/pom.xml" />
+        <option value="$PROJECT_DIR$/vendors/pom.xml" />
       </set>
     </option>
   </component>

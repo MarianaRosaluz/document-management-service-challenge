@@ -26,7 +26,6 @@
             <artifactId>document-management-service-challenge.entrypoint.api</artifactId>
             <version>${project.version}</version>
         </dependency>
-
     </dependencies>
 
     <build>
