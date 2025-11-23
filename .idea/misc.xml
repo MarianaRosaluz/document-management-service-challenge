@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/document-management-service-challenge.apps.business/pom.xml" />
         <option value="$PROJECT_DIR$/document-management-service-challenge.apps.core/pom.xml" />
         <option value="$PROJECT_DIR$/document-management-service-challenge.apps.worker/pom.xml" />
+        <option value="$PROJECT_DIR$/document-management-service-challenge.vendors.flyway/pom.xml" />
         <option value="$PROJECT_DIR$/document-management-service-challenge.vendors/pom.xml" />
         <option value="$PROJECT_DIR$/vendors/pom.xml" />
       </set>

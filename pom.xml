@@ -21,7 +21,6 @@
         <module>document-management-service-challenge.integration-tests</module>
         <module>document-management-service-challenge.entrypoint.api</module>
         <module>document-management-service-challenge.apps.migration</module>
-        <module>document-management-service-challenge.vendors.flyway</module>
         <module>document-management-service-challenge.vendors.postgres</module>
     </modules>
 
