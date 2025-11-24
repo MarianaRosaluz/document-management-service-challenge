@@ -13,9 +13,23 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=root
       - POSTGRES_DB=document-management
-
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    restart: always
+    ports:
+      - "9000:9000"  # API S3
+      - "9001:9001"  # MinIO Web Console
+    environment:
+      MINIO_ROOT_USER: mariana
+      MINIO_ROOT_PASSWORD: estrela10
+    command: server --console-address ":9001" /data
+    volumes:
+      - challenge_minio_data:/data
 volumes:
   challenge_postgresql_data:
+  challenge_minio_data:
+    driver: local
 
 networks:
   batch_network:
